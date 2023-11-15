@@ -1,14 +1,18 @@
 import React from "react";
 import { Typography, Container, Grid, Box } from "@mui/material";
 import { aboutStyles } from "./styles";
-import lightbulb from "./Images/lightbulb.png";
+import vision from './Images/vision.png'
 import cartoonholdhands from "./Images/cartoonholdhands.png";
 import whatcartoon from "./Images/what.png";
-import sheema from "./Images/sheema.png";
-import nay from "./Images/nay.png";
-import hikari from "./Images/hikari.png";
-import nyan from "./Images/nyan.png";
-import sithu from "./Images/sithu.jpg"
+// import sheema from "./Images/sheema.png";
+// import nay from "./Images/nay.png";
+// import hikari from "./Images/hikari.png";
+// import nyan from "./Images/nyan.png";
+// import sithu from "./Images/sithu.jpg";
+// import william from "./Images/william.jpg";
+// import albert from "./Images/albert.png";
+// import kaung from "./Images/kaung.png";
+// import michelle from "./Images/michelle.png";
 
 const About = () => {
   const styles = aboutStyles();
@@ -54,7 +58,7 @@ const About = () => {
           </Grid>
           <Grid item xs={12} sm={4} order={{ xs: 1, sm: 2 }}>
             <img
-              src={lightbulb}
+              src={vision}
               alt="Burmese Event 1"
               style={{ width: "100%", height: "auto" }}
             />
@@ -79,7 +83,7 @@ const About = () => {
             </Typography>
           </Grid>
         </Grid>
-        <h1 style={{ textAlign: "center", marginBottom: '2%', fontSize: 'rem' }}>Meet the Team</h1>
+        {/* <h1 style={{ textAlign: "center", marginBottom: '2%', fontSize: 'rem' }}>Meet the Team</h1>
         <Grid container spacing={3} sx={{ mb: 3 }}>
           <Grid item xs={12} sm={4} md={3}>
             <img
@@ -119,7 +123,7 @@ const About = () => {
           </Grid>
           <Grid item xs={12} sm={4} md={3}>
             <img
-              src="https://cdn.pixabay.com/photo/2018/05/11/09/56/myanmar-3389994_960_720.png"
+              src={albert}
               alt="Burmese Event 1"
               style={{ width: "100%", height: "auto" }}
             />
@@ -128,7 +132,7 @@ const About = () => {
           </Grid>
           <Grid item xs={12} sm={4} md={3}>
             <img
-              src="https://cdn.pixabay.com/photo/2018/05/11/09/56/myanmar-3389994_960_720.png"
+              src={william}
               alt="Burmese Event 1"
               style={{ width: "100%", height: "auto" }}
             />
@@ -146,7 +150,7 @@ const About = () => {
           </Grid>
           <Grid item xs={12} sm={4} md={3}>
             <img
-              src="https://cdn.pixabay.com/photo/2018/05/11/09/56/myanmar-3389994_960_720.png"
+              src={michelle}
               alt="Burmese Event 1"
               style={{ width: "100%", height: "auto" }}
             />
@@ -155,7 +159,7 @@ const About = () => {
           </Grid>
           <Grid item xs={12} sm={4} md={3}>
             <img
-              src="https://cdn.pixabay.com/photo/2018/05/11/09/56/myanmar-3389994_960_720.png"
+              src={kaung}
               alt="Burmese Event 1"
               style={{ width: "100%", height: "auto" }}
             />
@@ -164,7 +168,7 @@ const About = () => {
               VP of Software Development
             </div>
             </Grid>
-        </Grid>
+        </Grid> */}
       </Container>
     </Box>
   );
