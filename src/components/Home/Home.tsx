@@ -11,12 +11,7 @@ const Home = () => {
   return (
     <Box sx={styles.root} style={{ overflow: "hidden" }}>
       <Box
-        sx={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          marginX: { xs: "0%", sm: "10%" },
-        }}
+        sx={styles.body}
       >
         <Grid
           container

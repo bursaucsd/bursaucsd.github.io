@@ -55,9 +55,6 @@ const EventCard: React.FC<EventCardProps> = ({
           }}
         >
           <Typography variant="h5">{title}</Typography>
-          {/* <Button size="small" variant="contained">
-            See Photos
-          </Button> */}
           <Button size="small" variant="contained" onClick={handleOpen}>See Photos</Button>
           <Modal
             open={open}
@@ -66,8 +63,8 @@ const EventCard: React.FC<EventCardProps> = ({
             aria-describedby="modal-modal-description"
           >
             <Box sx={style}>
-              <img src={pic1} alt="pic1" height='200px'/>
-              <img src={pic2} alt="pic2" height='200px'/>
+              {/* <img src={pic1} alt="pic1" height='200px'/>
+              <img src={pic2} alt="pic2" height='200px'/> */}
             </Box>
           </Modal>
         </Box>

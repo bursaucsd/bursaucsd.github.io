@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography, Container, Grid, Box, Button } from "@mui/material";
-import { cultureStyles } from "./styles";
+import { teamStyles } from "./styles";
 import TextField from "@mui/material/TextField";
 import sheema from "./Images/sheema.png";
 import nay from "./Images/nay.png";
@@ -16,7 +16,7 @@ import kacey from "./Images/kacey.png"
 import sumay from "./Images/sumay.jpeg"
 
 const Team = () => {
-  const styles = cultureStyles();
+  const styles = teamStyles();
   return (
     <Box sx={styles.root}>
       <Container maxWidth="lg" style={{ marginTop: "5%" }}>

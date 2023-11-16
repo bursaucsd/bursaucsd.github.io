@@ -27,6 +27,7 @@ interface Props {
 const drawerWidth = 240;
 const navItems = ["About", "Events", "Archives", "Team", "Contact"];
 
+
 export default function Navbar(props: Props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -35,6 +36,14 @@ export default function Navbar(props: Props) {
     setMobileOpen((prevState) => !prevState);
   };
 
+  const handleScrollToFooter = () => {
+    const footerElement = document.getElementById("footer"); // assuming the ID of your footer is "footer"
+    if (footerElement) {
+      footerElement.scrollIntoView({ behavior: "smooth" });
+      setMobileOpen(false); // close the mobile drawer after scrolling
+    }
+  };
+  
   const drawer = (
     <Box
       onClick={handleDrawerToggle}
@@ -85,8 +94,8 @@ export default function Navbar(props: Props) {
           </Box>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: "#fff" }}>
-                  <Link to={`/${item.toLowerCase()}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+              <Button key={item} sx={{ color: "#fff" }} onClick={item === "Contact" ? handleScrollToFooter : undefined}>
+                  <Link to={item === "Contact" ? "#" : `/${item.toLowerCase()}`} style={{ textDecoration: 'none', color: 'inherit' }}>
                 <ListItemText primary={item} />
               </Link>
               </Button>
@@ -114,7 +123,7 @@ export default function Navbar(props: Props) {
           {drawer}
         </Drawer>
       </Box>
-      <Box component="main" sx={{ p: 3 }}>
+      <Box component="main" sx={{ p: 0 }}>
         <Toolbar />
       </Box>
     </Box>

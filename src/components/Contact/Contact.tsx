@@ -49,8 +49,9 @@ const Contact = () => {
                   gap: "13px",
                   color: "white",
                 }}
+                
               >
-                <TextField
+                {/* <TextField
                   required
                   id="outlined-required"
                   label="Name"
@@ -79,7 +80,7 @@ const Contact = () => {
                 rows={4}
                 style={{ backgroundColor: "white", width: "100%", borderRadius: '15px'}}
               />
-              <Button variant="contained" sx={{borderRadius: '15px'}}>Submit Message</Button>
+              <Button variant="contained" sx={{borderRadius: '15px'}}>Submit Message</Button> */}
               </Box>
             </Grid>
           </Grid>
