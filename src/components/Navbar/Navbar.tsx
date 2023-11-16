@@ -40,7 +40,6 @@ export default function Navbar(props: Props) {
     const footerElement = document.getElementById("footer"); // assuming the ID of your footer is "footer"
     if (footerElement) {
       footerElement.scrollIntoView({ behavior: "smooth" });
-      setMobileOpen(false); // close the mobile drawer after scrolling
     }
   };
   
@@ -58,9 +57,9 @@ export default function Navbar(props: Props) {
       <Divider />
       <List>
         {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
+          <ListItem key={item} disablePadding onClick={item === "Contact" ? handleScrollToFooter : undefined}>
             <ListItemButton sx={{ textAlign: "center" }}>
-              <Link to={`/${item.toLowerCase()}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+            <Link to={item === "Contact" ? "#" : `/${item.toLowerCase()}`} style={{ textDecoration: 'none', color: 'inherit' }}>
                 <ListItemText primary={item} />
               </Link>
             </ListItemButton>
