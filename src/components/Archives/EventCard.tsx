@@ -63,8 +63,8 @@ const EventCard: React.FC<EventCardProps> = ({
             aria-describedby="modal-modal-description"
           >
             <Box sx={style}>
-              {/* <img src={pic1} alt="pic1" height='200px'/>
-              <img src={pic2} alt="pic2" height='200px'/> */}
+              <img src={pic1} alt="" height='200px'/>
+              <img src={pic2} alt="" height='200px'/>
             </Box>
           </Modal>
         </Box>

@@ -11,7 +11,5 @@ export const archiveStyles = () => ({
     itemContainer: {
         marginTop: '0%',
         display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
     }
   });

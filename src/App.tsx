@@ -9,7 +9,6 @@ import Archives from './components/Archives/Archives'
 import Team from './components/Team/Team'
 import ScrollToTop from './components/ScrollToTop';
 import Footer from './components/Footer/Footer'
-import { Box } from '@mui/material';
 
 function App() {
   return (

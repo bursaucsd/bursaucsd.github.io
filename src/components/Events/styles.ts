@@ -11,7 +11,7 @@ export const eventsStyles = () => ({
     itemContainer: {
         marginTop: '0%',
         display: 'flex',
-        justifyContent: 'center',
+        // justifyContent: 'center',
         alignItems: 'center',
     }
   });
