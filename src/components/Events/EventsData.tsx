@@ -7,21 +7,21 @@ export const EventsData = [
     {
         image: librarywalk,
         title: "Tabling",
-        date: "January 16th, 2023",
+        date: "January 16th, 2024",
         description:
           "We will be tabling on Library Walk! Swing by to learn more about what we do, what events we host, and how you can get involved! We will have some snacks for everyone!",
     },
     {
         image: wintergbm,
         title: "GBM 1",
-        date: "January 31st, 2023",
+        date: "January 31st, 2024",
         description:
-          "Our first GBM of Fall ‘23 will be this Wednesday, October 11 at the Bear Room (Price Center) from 7:30-8:30pm. Join the team to learn about Burmese culture, see what events we have planned, and enjoy some Laphet Thoke! Can’t wait to see everyone there! 🍂🫶🏼",
+          "Our first GBM of Winter '24 will be on January 31st! Join the team to learn about Burmese culture, see what events we have planned, and enjoy some Laphet Thoke! Can’t wait to see everyone there! 🍂🫶🏼",
     },
     {
         image: lunarnewyear,
         title: "Lunar New Year",
-        date: "February 11th, 2023",
+        date: "February 11th, 2024",
         description:
           "BURSA will be tabling at the Lunar New Year festival! We will be handing out cute toys and free food to anyone who visits our booth. Swing by for some free swags and food!",
     },

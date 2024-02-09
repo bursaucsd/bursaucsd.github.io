@@ -18,7 +18,7 @@ export const currentBoard = [
         img: nay
     },
     {
-        name: "Shema Muller",
+        name: "Sheema Muller",
         title: "Vice President",
         img: sheema
     },
