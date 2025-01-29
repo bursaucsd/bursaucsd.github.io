@@ -10,12 +10,15 @@ import michelle from "./Images/michelle.png";
 import angelina from "./Images/angelina.png"
 import kacey from "./Images/kacey.png"
 import sumay from "./Images/sumay.jpeg"
+import lucas from "./Images/lucas.png"
+import alfredphyo from "./Images/alfred.png"
+import ingyin from "./Images/ingyin.png"
 
 export const currentBoard = [
     {
-        name: "Su Aye (Nay)",
+        name: "Hikari Kyi",
         title: "President",
-        img: nay
+        img: hikari
     },
     {
         name: "Sheema Muller",
@@ -23,43 +26,53 @@ export const currentBoard = [
         img: sheema
     },
     {
+        name: "Ingyin Moh",
+        title: "Internal Relations",
+        img: ingyin
+    },
+    {
         name: "Angelina Yun Yee",
-        title: "VP Internal",
+        title: "External Relations",
         img: angelina
     },
     {
-        name: "Hikari Kyi",
-        title: "VP External",
-        img: hikari
-    },
-    {
         name: "Nyan Aung",
-        title: "VP Finance",
+        title: "Secretary",
         img: nyan
     },
     {
         name: "Kacey Zay-Ya",
-        title: "VP Accounting",
+        title: "Treasurer",
         img: kacey
     },
     {
-        name: "William Hein",
-        title: "VP Operations",
-        img: william
-    },
-    {
         name: "Sithu Soe",
-        title: "VP Marketing",
+        title: "Marketing Coordinator",
         img: sithu
     },
     {
         name: "Michelle Myint",
-        title: "VP Events",
+        title: "Events Coordinator",
         img: michelle
+    },
+    {
+        name: "Lucas Hlaing",
+        title: "Accounting Coordinator",
+        img: lucas
+    },
+    {
+        name: "Alfred Phyo",
+        title: "Operations Coordinator",
+        img: alfredphyo,
     },
 ]
 
 export const previousBoard = [
+    {
+        name: "Su Aye (Nay)",
+        title: "Former President",
+        img: nay
+    },
     {
         name: "Kaung Min Khant",
         title: "Former VP Software Development",
@@ -69,6 +82,11 @@ export const previousBoard = [
         name: "Su May",
         title: "Former VP Finance",
         img: sumay
+    },
+    {
+        name: "William Hein",
+        title: "Former VP Operations",
+        img: william
     },
     {
         name: "Albert Aung",

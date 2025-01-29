@@ -17,6 +17,10 @@ export const teamStyles = () => ({
   imgStyle: {
     width: "100%",
     height: "auto",
+    aspectRatio: "1/1",
+    objectFit: "cover",
     borderRadius: "5%",
   },
-});
+}) as const;
+
+

@@ -9,10 +9,34 @@ import sp23studyocial from "./Images/sp23studysocial.png";
 import sp23somisocial from "./Images/sp23somisocial.png";
 import sp23bf1 from "./Images/sp23bf1.png";
 import sp23bf2 from "./Images/sp23bf2.png";
-import { sp23ArchivesData, fa23ArchivesData } from "./ArchivesData";
+import { sp23ArchivesData, fa23ArchivesData, wi24ArchivesData, fa24ArchivesData } from "./ArchivesData";
 
 const Archives = () => {
   const styles = archiveStyles();
+  const fa24ArchiveEvents = fa24ArchivesData.map((data) => {
+    return (<Grid item xs={12} sm={6} md={4}>
+      <EventCard
+        image={data.image}
+        title={data.title}
+        date={data.date}
+        description={data.description}
+        pic1={data.pic1}
+        pic2={data.pic2}
+      ></EventCard>
+    </Grid>);
+  });
+  const wi24ArchiveEvents = wi24ArchivesData.map((data) => {
+    return (<Grid item xs={12} sm={6} md={4}>
+      <EventCard
+        image={data.image}
+        title={data.title}
+        date={data.date}
+        description={data.description}
+        pic1={data.pic1}
+        pic2={data.pic2}
+      ></EventCard>
+    </Grid>);
+  });
   const sp23ArchiveEvents = sp23ArchivesData.map((data) => {
     return (<Grid item xs={12} sm={6} md={4}>
       <EventCard
@@ -40,6 +64,18 @@ const Archives = () => {
   return (
     <Box sx={styles.root}>
       <Container maxWidth="lg" style={{ marginTop: "5%" }}>
+      <Typography variant="h2" sx={{ textAlign: "center", color: "white" }}>
+          FALL 2024 EVENTS
+        </Typography>
+        <Grid container spacing={3} sx={styles.itemContainer} mb={4}>    
+          {fa24ArchiveEvents}
+        </Grid>
+      <Typography variant="h2" sx={{ textAlign: "center", color: "white" }}>
+          WINTER 2024 EVENTS
+        </Typography>
+        <Grid container spacing={3} sx={styles.itemContainer} mb={4}>    
+          {wi24ArchiveEvents}
+        </Grid>
       <Typography variant="h2" sx={{ textAlign: "center", color: "white" }}>
           FALL 2023 EVENTS
         </Typography>

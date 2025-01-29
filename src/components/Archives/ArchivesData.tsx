@@ -14,7 +14,92 @@ import fa23gbm1 from "./Images/fa23gbm1.png";
 import fa23gbm2 from "./Images/fa23gbm2.png";
 import fa23fg1 from "./Images/fa23fg1.png";
 import fa23fg2 from "./Images/fa23fg2.png";
+import wi24librarywalk from "./Images/wi24librarywalk.png";
+import wi24wintergbm from "./Images/wi24wintergbm.png";
+import wi24lunarnewyear from "./Images/wi24lunarnewyear.png"
+import fa24bonfire from "./Images/fa24bonfire.png";
+import fa24friendsgiving from "./Images/fa24friendsgiving.png";
+import fa24gamenight from "./Images/fa24gamenight.png";
+import fa24gbm from "./Images/fa24gbm.png";
+import fa24iceskating from "./Images/fa24iceskating.png"
 
+export const fa24ArchivesData = [
+  {
+    image: fa24gbm,
+    title: "GBM 1",
+    date: "October 10, 2024",
+    description:
+      "We will be hosting our first GBM of the 2024-2025 academic year! Swing by to learn more about what we do, what events we host, and how you can get involved! We will have food for everyone!",
+      pic1: '',
+      pic2: '',
+  },
+  {
+    image: fa24bonfire,
+    title: "Bonfire",
+    date: "October 11, 2024",
+    description:
+      "We will be having a bonfire at La Jolla Shores on Friday (Oct 11) at 6pm!!!! We love our bonfires and seeing everyone at them so come to our first one of this school year and hang out with BURSA!!!! Meet in front of Main Gym at 5:30pm to take the bus with other members! We hope to see you there!!😋🍂🌊",
+      pic1: '',
+      pic2: '',
+  },
+  {
+    image: fa24gamenight,
+    title: "Game Night",
+    date: "October 23, 2024",
+    description:
+      "Happy Week 4!!! We’ll be having a game night for our second GBM of fall quarter ‘24! Join us this Wednesday 10/23 @ 7pm in Price Centers ERC room to destress from midterms and play fun games + enjoy free food!!!!!! 🎲🎮👾🎱",
+      pic1: '',
+      pic2: '',
+  },
+  {
+    image: fa24iceskating,
+    title: "UTC Ice Skating",
+    date: "November 16, 2024",
+    description:
+      "Lace up your skates and glide into a night of fun! Join us for a frosty evening on the ice at our Ice Skating Night on November 16th from 6:30 PM to 9:00 PM. Whether you're a seasoned skater or a first-timer, come enjoy the music, the wintery atmosphere, and the company of friends, as we skate under the twinkling lights.",
+      pic1: '',
+      pic2: '',
+  },
+  {
+    image: fa24friendsgiving,
+    title: "Friendsgiving",
+    date: "November 22, 2024",
+    description:
+      "Join us for a Friendsgiving Feast on November 16th as we come together to celebrate friendship, food, and all the things we're grateful for. This is a potluck-style event, so bring your favorite dish—whether it’s a savory side, a mouthwatering main, or a sweet treat—to contribute to the spread. Whether you’re a kitchen pro or just love to eat, everyone is welcome!",
+      pic1: '',
+      pic2: '',
+  },
+]
+
+export const wi24ArchivesData = [
+{
+  image: wi24librarywalk,
+  title: "Tabling",
+  date: "January 16th, 2024",
+  description:
+    "We will be tabling on Library Walk! Swing by to learn more about what we do, what events we host, and how you can get involved! We will have some snacks for everyone!",
+    pic1: '',
+    pic2: '',
+},
+{
+  image: wi24wintergbm,
+  title: "GBM 1",
+  date: "January 31st, 2024",
+  description:
+    "Our first GBM of Winter '24 will be on January 31st! Join the team to learn about Burmese culture, see what events we have planned, and enjoy some Laphet Thoke! Can’t wait to see everyone there! 🍂🫶🏼",
+    pic1: '',
+    pic2: '',
+},
+{
+  image: wi24lunarnewyear,
+  title: "Lunar New Year",
+  date: "February 11th, 2024",
+  description:
+    "BURSA will be tabling at the Lunar New Year festival! We will be handing out cute toys and free food to anyone who visits our booth. Swing by for some free swags and food!",
+    pic1: '',
+    pic2: '',
+},
+];
 
 export const fa23ArchivesData = [
   {
