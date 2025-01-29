@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.0e0765b5.css",
-    "main.js": "/static/js/main.f4217277.js",
+    "main.js": "/static/js/main.34db5cbb.js",
     "static/js/787.b2731d6b.chunk.js": "/static/js/787.b2731d6b.chunk.js",
+    "static/media/ingyin.png": "/static/media/ingyin.f3a794299bf1059641c5.png",
     "static/media/kaung.png": "/static/media/kaung.a4bf65c9aca545af2245.png",
     "static/media/nay.png": "/static/media/nay.31931cf28c880f9bbc62.png",
     "static/media/fa23bf1.png": "/static/media/fa23bf1.be79c73c7b949d34f061.png",
@@ -14,17 +15,23 @@
     "static/media/hikari.png": "/static/media/hikari.12887560f358632eb8a4.png",
     "static/media/fa23gbm1.png": "/static/media/fa23gbm1.9b01993151244bb7a124.png",
     "static/media/fa23friendsgiving.png": "/static/media/fa23friendsgiving.dd0e5b01696eb0b4f2c1.png",
-    "static/media/lunarnewyear.png": "/static/media/lunarnewyear.ca29924f4dcdb8f2adff.png",
+    "static/media/fa24gbm.png": "/static/media/fa24gbm.07e3decbf1cac22973ac.png",
+    "static/media/wi24lunarnewyear.png": "/static/media/wi24lunarnewyear.ca29924f4dcdb8f2adff.png",
     "static/media/nyan.png": "/static/media/nyan.feb5cc4fef685e999126.png",
     "static/media/sp23bonfire.png": "/static/media/sp23bonfire.2415fe8293268d10e9e9.png",
-    "static/media/librarywalk.png": "/static/media/librarywalk.5b599217eaf6f28df31b.png",
+    "static/media/wi24librarywalk.png": "/static/media/wi24librarywalk.5b599217eaf6f28df31b.png",
     "static/media/fa23gbm.png": "/static/media/fa23gbm.26a2a0c586bc4eba08a6.png",
     "static/media/sp23bf1.png": "/static/media/sp23bf1.c034dca16be37c176189.png",
     "static/media/sp23bf2.png": "/static/media/sp23bf2.a599191d9996d7176a65.png",
+    "static/media/asiannightmarket.png": "/static/media/asiannightmarket.0da158a584b294194092.png",
     "static/media/sp23gbm1.png": "/static/media/sp23gbm1.4391044ee4d0f100f099.png",
     "static/media/angelina.png": "/static/media/angelina.3ee31c83032227414de9.png",
     "static/media/sp23somisocial.png": "/static/media/sp23somisocial.db2b11a2b3fb64a7cdf6.png",
     "static/media/michelle.png": "/static/media/michelle.dbcc174671aaafd49880.png",
+    "static/media/lucas.png": "/static/media/lucas.dc1aba488c046f41b69f.png",
+    "static/media/fa24bonfire.png": "/static/media/fa24bonfire.ec6aed097439246dac2d.png",
+    "static/media/fa24iceskating.png": "/static/media/fa24iceskating.3bf9618c24c883251ff1.png",
+    "static/media/fa24gamenight.png": "/static/media/fa24gamenight.1d0b418147f6f756c070.png",
     "static/media/sp23studysocial.png": "/static/media/sp23studysocial.2606d9b94fdd1ef9c2fb.png",
     "static/media/fa23yogurtworld.png": "/static/media/fa23yogurtworld.def55126897e196f37b2.png",
     "static/media/fa23bonfire.png": "/static/media/fa23bonfire.24de88d8ab0762facf40.png",
@@ -32,7 +39,9 @@
     "static/media/william.jpg": "/static/media/william.ffb806540cbcd5f9c46a.jpg",
     "static/media/sithu.jpg": "/static/media/sithu.3cf849ae80b72921dd5a.jpg",
     "static/media/albert.png": "/static/media/albert.e56b4ea05a72e2127565.png",
-    "static/media/wintergbm.png": "/static/media/wintergbm.91acb7d15d84d9007008.png",
+    "static/media/alfred.png": "/static/media/alfred.0b5bd29de48020f2db3b.png",
+    "static/media/fa24friendsgiving.png": "/static/media/fa24friendsgiving.0575a9f5113b84b5893e.png",
+    "static/media/wi24wintergbm.png": "/static/media/wi24wintergbm.91acb7d15d84d9007008.png",
     "static/media/cartoonholdhands.png": "/static/media/cartoonholdhands.2b78477ed5452b49ddc3.png",
     "static/media/bursalogo.jpg": "/static/media/bursalogo.a70e259568e71ef8af43.jpg",
     "static/media/what.png": "/static/media/what.50817535f48e2f3a0ca2.png",
@@ -45,11 +54,11 @@
     "index.html": "/index.html",
     "static/media/email.svg": "/static/media/email.22b640c59ef8c38b848bc6e38fcd4cb6.svg",
     "main.0e0765b5.css.map": "/static/css/main.0e0765b5.css.map",
-    "main.f4217277.js.map": "/static/js/main.f4217277.js.map",
+    "main.34db5cbb.js.map": "/static/js/main.34db5cbb.js.map",
     "787.b2731d6b.chunk.js.map": "/static/js/787.b2731d6b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e0765b5.css",
-    "static/js/main.f4217277.js"
+    "static/js/main.34db5cbb.js"
   ]
 }
